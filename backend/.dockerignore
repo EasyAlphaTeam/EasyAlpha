@@ -1,0 +1,55 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+/data/
+
+# Frontend (not needed for backend build)
+frontend/
+
+# Git
+.git/
+.gitattributes
+
+# IDE
+.idea/
+.vscode/
+
+# Docker
+.venv/
+
+# Documentation & meta
+*.md
+LICENSE
+SECURITY.md
+CONTRIBUTING.md
+release-notes.md
+deployment.md
+development.md
+
+# Config not needed in image
+.env
+.env.example
+.gitignore
+.pre-commit-config.yaml
+copier.yml
+.copier/
+.github/
+
+# Node (root package.json is for tooling only)
+node_modules/
+bun.lock
+package.json
+
+# macOS
+.DS_Store
+
+# Qlib data (downloaded during build or mounted as volume)
+**/.qlib/
